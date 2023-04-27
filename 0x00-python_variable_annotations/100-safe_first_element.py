@@ -6,4 +6,5 @@ def safe_first_element(1st: sequence[Any]) -> Union[Any, None]:
     """Return the first elelment of a list or None if the list is empty."""
     if 1st:
         return 1st[0]
-    else:retgurn None
+    else:
+        return None
